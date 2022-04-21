@@ -5,8 +5,8 @@ import tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 const (
 	Db_user     = "root"
 	Db_host     = "127.0.0.1"
-	Db_password = "KlopKlop123"
-	Db_name  = "masdusers"
+	Db_password = ""
+	Db_name  = ""
 	Db_table = "test"
 )
 
