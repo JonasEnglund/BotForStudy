@@ -1,13 +1,13 @@
-﻿package consts
+package consts
 
 import tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api"
 
 const (
-	Db_user     = ""
-	Db_host     = ""
-	Db_password = ""
-	Db_name  = ""
-	Db_table = ""
+	Db_user     = "root"
+	Db_host     = "127.0.0.1"
+	Db_password = "KlopKlop123"
+	Db_name  = "masdusers"
+	Db_table = "test"
 )
 
 const (
@@ -29,7 +29,7 @@ type Person struct {
 	Points 	   	int
 }
 
-const Token = ""
+const Token = "5101877512:AAHAqQtKuMYSOaOmEj1RHXFkj7ZvUIqJzA0"
 
 var RoleKeyboard = [][]tgbotapi.InlineKeyboardButton {
 	{
